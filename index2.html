@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">  
+</head>
+<body>
+   <div class="container ">
+        <form class="w-25 border border-dark border-2 rounded p-3 mx-auto mt-4 shadow-lg p-3 mb-5 bg-white rounded ">
+            <h1 class="text-center mt-5 ">Login</h1>
+            <!-- mx-auto : place exact center -->
+            <div class="mb-3">
+              <img class=" w-50 m-5 d-flex mx-auto " src="https://hailbytes.com/wp-content/uploads/2020/07/Login.gif" alt="">
+
+              <input id="acno" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="username">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control"  id="psd"  placeholder="Password">
+              <!--form-control: used to give style or shape in input box-->
+            </div>
+           <div class="d-flex justify-content-evenly">
+                <button onclick="login()" type="button" class="btn btn-primary text-center">Login</button>
+           </div>            
+          </form>
+   </div>
+</body>
+<script src="./bank.js"></script>
+</html>
